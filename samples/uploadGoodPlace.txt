@@ -1,0 +1,17 @@
+[A FAIRE]
+
+- Ajouter un input de type file dans section-ajout.php /Done
+
+- Dans le contrôleur du formulaire, ajouter une vérification de cet input /Done
+  Si besoin, créer une fonction checkFile() dans functions.php qui envoit String vide si erreur,
+  sinon renvoit le tableau $_FILES /Done
+
+- Modifier la table annonces pour ajouter un champ "picture_url" qui stockera le chemin de l'image /Done
+- Modifier le traitement du formulaire pour insérer le chemin de l'image dans la table lors de
+  l'ajout d'une annonce
+
+- Modifier les fichiers qui liste les annonces ainsi que le fichier qui affiche une annonce
+  pour afficher l'image
+- N'oubliez pas de modifier les contrôleurs pour récupérer l'url des images
+
+...

@@ -1,0 +1,11 @@
+[SENDMAIL.INI]
+==> se trouve à cet emplacement C:\xampp\sendmail\
+
+[Ajouter ou modifier ces valeurs si elles existent déjà]
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=webforce3php@gmail.com
+auth_password=webforce3aix
+force_sender=webforce3php@gmail.com

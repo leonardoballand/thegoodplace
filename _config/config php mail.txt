@@ -1,0 +1,8 @@
+[PHP.INI]
+==> se trouve en se rendant dans xampp control panel -> apache -> config -> php (php.ini)
+
+[Ajouter ou modifier ces valeurs si elles existent déjà]
+SMTP=smtp.gmail.com
+smtp_port=587
+sendmail_from = webforce3php@gmail.com
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
